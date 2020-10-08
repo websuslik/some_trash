@@ -1,0 +1,17 @@
+<html>
+<head>
+
+</head>
+<body>
+	Players now: <span id="p">4</span>
+	<script>
+		function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+		setInterval(function() {
+		document.getElementById("p").innerHTML = getRandomInt(10);
+
+		}, 2000);
+	</script>
+</body>
+</html>
